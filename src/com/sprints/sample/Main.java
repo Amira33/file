@@ -5,15 +5,14 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-
-                System.out.print("Enter the number that you want to reverse: ");
+                System.out.print("Enter the number that you want to reverse: "); // new commit
                 Scanner sc = new Scanner(System.in);
                 int n = sc.nextInt();
                 int reverse_number = reverseNumber(n);
                 System.out.println("The reverse of the given number is: "+reverse_number);
             }
-            //method to reverse a number
-            public static int reverseNumber(int number)
+
+            public static int reverseNumber(int number) //method to reverse a number
             {
                 boolean isNoNegative = number < 0 ? true : false;
                 if(isNoNegative)
